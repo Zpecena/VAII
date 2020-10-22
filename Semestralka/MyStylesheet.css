@@ -1,0 +1,45 @@
+.carousel .carousel-item {
+    height: 800px;
+}
+
+footer {
+    background-color: #6c757d;
+    display: inline-block;
+    width: 100%;
+}
+footer p{
+    display: inline-block;
+    padding-right: 30px;
+}
+footer img {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.kontajner {
+    position: relative;
+    font-family: Arial;
+}
+
+.vpravoDole {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kontajner2 {
+    display: inline-block;
+
+}
+.kontajner2 img{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.kontajner2 div{
+    height: 80%;
+}
