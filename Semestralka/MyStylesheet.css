@@ -31,15 +31,21 @@ footer img {
     padding-left: 20px;
     padding-right: 20px;
 }
-.kontajner2 {
+.kontajnerBlok {
     display: inline-block;
 
 }
-.kontajner2 img{
+.kontajnerBlok .obrazokVlavo{
     float: left;
     width: 40%;
     height: 100%;
 }
-.kontajner2 div{
+.kontajnerBlok div{
     height: 80%;
+}
+.kontajnerBlok .obrazokVpravo{
+    float: Right;
+    width: 40%;
+    height: 100%;
+    right: 0%;
 }
