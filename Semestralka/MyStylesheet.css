@@ -20,6 +20,7 @@ footer img {
 .kontajner {
     position: relative;
     font-family: Arial;
+    font-size: 50px;
 }
 
 .vpravoDole {
@@ -46,6 +47,5 @@ footer img {
 .kontajnerBlok .obrazokVpravo{
     float: Right;
     width: 40%;
-    height: 100%;
     right: 0%;
 }
