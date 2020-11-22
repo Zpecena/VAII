@@ -7,25 +7,6 @@
     <title>HomePage</title>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="LotRPage.html">LotR <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="SWPage.html">SW </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="HPPage.html">HP </a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -35,19 +16,19 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="Pictures/LotR.jpeg" class="d-block w-100" alt="...">
+            <img src="./App/Pictures/LotR.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Lord of the Rings</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Pictures/SW.png" class="d-block w-100" alt="...">
+            <img src="./App/Pictures/SW.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Star Wars</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Pictures/HP.jpg" class="d-block w-100" alt="...">
+            <img src="./App/Pictures/HP.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Harry Potter</h5>
             </div>
@@ -62,11 +43,6 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<footer>
-    <p>Author: Zdenek</p>
-    <p><a href="mailto:zpecena@foi.hr">zpecena@foi.hr</a></p>
-   <img src="Pictures/valid.png" alt="html5 logo">
-</footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>

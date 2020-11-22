@@ -36,10 +36,13 @@ footer img {
     display: inline-block;
 
 }
+.obrazokVlavo{
+    float: left;
+}
 .kontajnerBlok .obrazokVlavo{
     float: left;
     width: 40%;
-    height: 100%;
+    height: 60%;
 }
 .kontajnerBlok div{
     height: 80%;

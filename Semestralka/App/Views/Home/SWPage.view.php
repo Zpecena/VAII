@@ -7,34 +7,15 @@
     <title>Star Wars</title>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="MainPage.html">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="LotRPage.html">LotR <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="SWPage.html">SW</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="HPPage.html">HP</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 <div class="kontajner">
-    <img src="Pictures/Lightsaber.jpeg" alt="Nature" style="width:100%;">
+    <img src="./App/Pictures/Lightsaber.jpeg" alt="Nature" style="width:100%;">
     <div class="vpravoDole">
         Star Wars
     </div>
 </div>
 <hr class="featurette-divider">
     <div class="kontajnerBlok">
-    <img class="obrazokVlavo" src="Pictures/Jedi.jpg" alt="Jedi Picture">
+    <img class="obrazokVlavo" src="./App/Pictures/Jedi.jpg" alt="Jedi Picture">
     <div>
         <H1>Jedi Warriors</H1>
         <p>Jedi is a member of the mystical knightly order in the Star Wars films, trained to guard peace and justice in the Universe.</p>
@@ -43,18 +24,13 @@
     </div>
 <hr class="featurette-divider">
     <div class="kontajnerBlok">
-        <img class="obrazokVpravo" src="Pictures/SL.jpg" alt="Sith Picture">
+        <img class="obrazokVpravo" src="./App/Pictures/SL.jpg" alt="Sith Picture">
         <div>
             <H1>The Sith</H1>
             <p>JedThe Sith, also referred to as the Sith Order, was an ancient religious order of Force-wielders devoted to the dark side of the Force. Driven by their emotions, including hate, anger, and greed, the Sith were deceptive and obsessed with gaining power no matter the cost.</p>
         </div>
 
     </div>
-    <footer>
-        <p>Author: Zdenek</p>
-        <p><a href="mailto:zpecena@foi.hr">zpecena@foi.hr</a></p>
-        <img src="Pictures/valid.png" alt="Html logo">
-    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>

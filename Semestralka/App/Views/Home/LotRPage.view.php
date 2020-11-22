@@ -7,25 +7,6 @@
     <title>Lord of the Rings</title>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="MainPage.html">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="LotRPage.html">LotR <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="SWPage.html">SW</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="HPPage.html">HP</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">Lord of the rings</h1>
@@ -37,17 +18,17 @@
         <div class="col">
             <h2>Fellowship of the Ring</h2>
             <p>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p>
-            <img class="img-thumbnail" src="Pictures/Fellowship.jpg" alt="Fellowship Picture">
+            <img class="img-thumbnail" src="./App/Pictures/Fellowship.jpg" alt="Fellowship Picture">
         </div>
         <div class="col">
             <h2>Two Towers</h2>
             <p>While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>
-            <img class="img-thumbnail" src="Pictures/Towers.jpg" alt="Towers Picture">
+            <img class="img-thumbnail" src="./App/Pictures/Towers.jpg" alt="Towers Picture">
         </div>
         <div class="col">
             <h2>Return of the King</h2>
             <p>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</p>
-            <img class="img-thumbnail" src="Pictures/Return.jpg" alt="Return picture">
+            <img class="img-thumbnail" src="./App/Pictures/Return.jpg" alt="Return picture">
         </div>
 
     </div>
