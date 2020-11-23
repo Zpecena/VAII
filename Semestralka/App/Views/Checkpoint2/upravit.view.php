@@ -3,7 +3,7 @@
     <input type="hidden" value="<?= @$_GET['id']?>" name="id">
     <div class="form-group">
         <label for="meno">Meno</label>
-        <input type="text" class="form-control" id="meno" name="meno" placeholder="Niekto Nejaky" value="<?= @$data->getMeno()?>" required maxlength="25" minlength="5">
+        <input type="text" class="form-control" id="meno" name="meno" placeholder="Niekto" value="<?= @$data->getMeno()?>" required maxlength="25" minlength="5" pattern="^\S+$">
     </div>
     <div class="form-group">
         <label for="pohlavie">Pohlavie</label>

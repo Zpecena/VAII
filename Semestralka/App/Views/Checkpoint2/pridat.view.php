@@ -3,7 +3,7 @@
 
     <div class="form-group">
         <label for="meno">Meno</label>
-        <input type="text" class="form-control" id="meno" name="meno" placeholder="Niekto Nejaky" required minlength="5" maxlength="25">
+        <input type="text" class="form-control" id="meno" name="meno" placeholder="Niekto" required minlength="5" maxlength="25" pattern="^\S+$">
     </div>
 
     <div class="form-group">
